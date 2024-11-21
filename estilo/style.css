@@ -22,7 +22,14 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background: linear-gradient(90deg, 
+        red, 
+        orange, 
+        yellow, 
+        green, 
+        blue, 
+        indigo, 
+        violet);
     color: white;
     text-align: center;
 }
@@ -32,6 +39,7 @@ header > h1 {
     font-variant: small-caps;
     font-family: var(--font2);
     font-size: 6vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.399);
 }
 
 header > p {
@@ -66,28 +74,48 @@ section.normal {
 section.imagem {
     background-color: rgba(61, 59, 59, 0.727);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: rgba(0, 0, 0, 0.508);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 
 section#img01 {
-    background-image: url('../imagens/WhatsApp\ Image\ 2024-11-21\ at\ 17.26.22.jpeg');
+    background-image: url('../imagens/txt02.jpeg');
+    background-position: center center;
 }
 
 section#img02 {
-
+    background-image: url('../imagens/txt04.jpeg');
+    background-position: center center;
 }
 
 section#img03 {
-
+    background-image: url('../imagens/txt03.jpeg');
+    background-position: left center;
+    background-position: center center;
 }
 
 footer {
-    background-color: orangered;
+    background: linear-gradient(270deg, 
+        red, 
+        orange, 
+        yellow, 
+        green, 
+        blue, 
+        indigo, 
+        violet);
+    color: white;
     text-align: center;
     padding: 10px;
+}
+
+footer > a {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.614);
 }
